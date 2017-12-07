@@ -1,0 +1,36 @@
+#new-user-container {
+    width: 100vw;
+}
+
+#new-user-data {
+    width: 900px;
+    padding: 16px;
+    align-items: flex-start;
+}
+
+#new-user-data * {
+    margin: 8px 0px;
+}
+
+#added-modal-container {
+    height: 100vw;
+    width: 100vw;
+    background-color: transparent;
+    z-index: 5;
+    display: fixed;
+}
+
+#added-modal{
+    z-index: 10;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 9px 20px grey;
+    padding: 16px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#added-modal h1 {
+    text-align: center;
+}
